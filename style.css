@@ -1,0 +1,51 @@
+body {
+  background-color: #141d26;
+  color: white;
+}
+
+.logo {
+  width: 2rem;
+}
+
+svg.active {
+  fill: #1da1f2;
+}
+
+/* Header */
+
+.composeTweetRight {
+  background-color: #1da1f2;
+  position: relative;
+  left: 300px;
+  bottom: 65px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+  background-color: #141d26;
+}
+.profileImage {
+  background-color: white;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+}
+
+.header .home {
+  font-size: 19px;
+}
+
+.tweetGroup {
+  border-bottom: 1px solid gray;
+}
+
+/* Bottom Nav */
+.bottomNav {
+  height: 50px;
+  border-top: 1px solid gray;
+  background-color: #141d26;
+}
