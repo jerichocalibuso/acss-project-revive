@@ -4,26 +4,29 @@ body {
 }
 
 .logo {
-  width: 2rem;
+  width: 30px;
 }
 
 svg.active {
   fill: #1da1f2;
 }
 
-/* Header */
-
+/* XS Components */
 .composeTweetRight {
   background-color: #1da1f2;
-  position: relative;
-  left: 300px;
-  bottom: 65px;
+
   height: 60px;
   width: 60px;
   border-radius: 100%;
-  z-index: 3;
 }
 
+.bottomNav {
+  height: 50px;
+  border-top: 1px solid gray;
+  background-color: #141d26;
+}
+
+/* Header */
 .header {
   border-bottom: 1px solid gray;
   background-color: #141d26;
@@ -39,13 +42,21 @@ svg.active {
   font-size: 19px;
 }
 
+/* Timeline */
 .tweetGroup {
   border-bottom: 1px solid gray;
 }
 
-/* Bottom Nav */
-.bottomNav {
-  height: 50px;
-  border-top: 1px solid gray;
-  background-color: #141d26;
+/* Left NAv */
+.leftnav {
+  min-width: 60px;
+  min-height: 0px;
+  height: 100vh;
+  border-right: 1px solid gray;
+}
+
+/* Right Nav */
+.rightnav {
+  min-width: 375px;
+  max-width: 375px;
 }
